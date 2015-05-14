@@ -9,18 +9,12 @@ for analysis purposes purposes
 Catalog
 ========
 
-Dengue Hotspots
------------------
+**Dengue Hotspots**
 
-- **PATH:** ``dengue-hotspots/``
+- PATH: ``dengue-hotspots/``
 
-- **DATA URL:** http://data.gov.my/folders/MOH/MOH_denggue_HOTSPOT_2010_2014_v3.xlsx
+- DATA URL: http://data.gov.my/folders/MOH/MOH_denggue_HOTSPOT_2010_2014_v3.xlsx
 
+- Contributors:
 
-
-
-Contributors
-=============
-
-- Izhar Firdaus <kagesenshi.87@gmail.com>
-
+  - Izhar Firdaus <kagesenshi.87@gmail.com>
