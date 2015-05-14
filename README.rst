@@ -18,6 +18,10 @@ Initializing buildout::
 Executing script (eg: dengue-hotspots)::
 
     cd dengue-hotspots/
+
+    # Download dataset
+    wget http://data.gov.my/folders/MOH/MOH_denggue_HOTSPOT_2010_2014_v3.xlsx
+
     ../bin/python transform.py
 
 Catalog
