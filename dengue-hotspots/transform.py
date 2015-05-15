@@ -47,14 +47,11 @@ class MapReduce(Job):
 
     def map(self, item, cb):
         (pos, row) = item
-
         try:
-
             result = {}
             for k, f in SCHEMA.items():
                 result[k] = f(row)
             cb((pos, result))
-
         except:
             print "Skipping row %s" % str(row)
 
