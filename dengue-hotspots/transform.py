@@ -61,4 +61,7 @@ class MapReduce(Job):
 runner = RambasedRunner()
 dataset = runner.run(MapReduce('MOH_denggue_HOTSPOT_2010_2014_v3.xlsx'))
 
-open('dengue-hotspot.json', 'w').write(json.dumps(dataset, indent=4))
+out = open('dengue-hotspot.json', 'w')
+for row in dataset:
+    out.write(json.dumps(row) + '\n')
+out.close()
